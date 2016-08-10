@@ -13,6 +13,13 @@
 	clear: both;
 }
 
+body {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+
 /* MENU */
 #main-menu {
 	
