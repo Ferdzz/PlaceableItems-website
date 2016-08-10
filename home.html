@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- METAS -->
+        <meta charset="UTF-8"/>
+        <!-- CSS LINKING -->
+        <link href="css/grid.css" rel="stylesheet" type="text/css"/>
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        
+        <title>Placeable Items - Home</title>
+        
+        <style>
+            * {
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+            }
+            .clearfix:before, .clearfix:after {
+                display: block;
+                content: " ";
+                clear: both;
+            }
+            #main-menu {
+                
+            }
+            #main-menu ul li {
+                display: inline-block;
+                text-align: center;
+            }
+            #footer {
+                position: relative;
+                background-image: url( "https://static.wixstatic.com/media/42a2e9_5fcc05a3ffb2459b81f7ff243b27ff2b~mv2.png/v1/fill/w_1016,h_148,al_c/42a2e9_5fcc05a3ffb2459b81f7ff243b27ff2b~mv2.png");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: top left;
+                height: 148px; /* height of the image */
+            }
+            #footer p {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateY(-50%), translateX(-50%);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header" class="col-6 left-3 no-margin text-center clearfix"> <!-- HEADER -->
+            <div id="logo">
+                <img src="https://static.wixstatic.com/media/42a2e9_2bea244d31d743e1a33e96079a96bedc~mv2.png/v1/fill/w_214,h_207,al_c,usm_0.66_1.00_0.01/42a2e9_2bea244d31d743e1a33e96079a96bedc~mv2.png" alt="logo"/></div>
+            <nav id="main-menu" class="col-12 no-margin clearfix"> <!-- MENU -->
+                <ul class="col-12 no-margin">
+                    <li>Home</li>
+                    <li>Downloads</li>
+                    <li>User Manual</li>
+                    <li>Gallery</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Supporters</li>
+                </ul>
+            </nav>
+        </div>
+        <div id="body" class="col-6 left-3 no-margin text-center clearfix"> <!-- BODY -->
+            body content
+        </div>
+        <div id="footer" class="col-6 left-3 no-margin text-center clearfix"> <!-- FOOTER -->
+            <p class="text-center">
+                All rights belong to Frédéric Deschênes and Vilim Muršić 2015-2016<br/>
+                Placeable Items developed by Ferdz (Frédéric Deschênes)<br/>
+                All models and textures designed by MasterianoX (Vilim Muršić)<br/>
+                
+                ty dat boi charles 2
+            </p>
+        </div>
+    </body>
+</html>
