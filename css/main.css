@@ -4,6 +4,8 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	font-family: Helvetica, sans-serif;
+	color: #333;
 }
 .clearfix:before, .clearfix:after {
 	display: block;
@@ -26,6 +28,8 @@
 	background-image: url("../img/footer-background.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-width: 100%;
-	background-position: top left;
+	background-position: center center;
+}
+#footer p {
+	color: #8DEEA3;
 }
