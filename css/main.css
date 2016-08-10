@@ -52,3 +52,8 @@ body {
 #footer p {
 	color: #8DEEA3;
 }
+
+#prefooter #bottom-bar {
+    top: -18px;
+    position: relative;
+}
