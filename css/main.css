@@ -1,3 +1,5 @@
+/* GENERAL */
+
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -8,6 +10,8 @@
 	content: " ";
 	clear: both;
 }
+
+/* MENU */
 #main-menu {
 	
 }
@@ -15,17 +19,13 @@
 	display: inline-block;
 	text-align: center;
 }
+
+/* FOOTER */
 #footer {
-	position: relative;
-	background-image: url( "https://static.wixstatic.com/media/42a2e9_5fcc05a3ffb2459b81f7ff243b27ff2b~mv2.png/v1/fill/w_1016,h_148,al_c/42a2e9_5fcc05a3ffb2459b81f7ff243b27ff2b~mv2.png");
+	padding: 30px;
+	background-image: url("footer-background.png");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: contain;
+	background-width: 100%;
 	background-position: top left;
-	height: 148px; /* height of the image */
-}
-#footer p {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translateY(-50%), translateX(-50%);
 }
