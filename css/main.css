@@ -29,6 +29,9 @@ body {
 }
 
 /* BODY */
+#body img {
+    width: 100%;
+}
 #body #clouds {
 	position: absolute;
 	top: 0;
@@ -39,6 +42,39 @@ body {
 	background-image: url("../img/clouds.png");
 	background-repeat: repeat-x;
 	background-position: top center;
+}
+#body #content-wrapper {
+    transform: translateX(5.333%); /* not 100% sure about this value */
+}
+#body #content-wrapper #arc {
+    display: block;
+}
+#body #content-wrapper #content {
+    background-color: #B0A47F;
+    border-left: solid 3px black;
+    border-right: solid 3px black;
+}
+#updates {
+    margin: 10px;
+    padding: 10px;
+    border: solid 3px #DECEA0;
+    background-color: rgb(194, 185, 156);
+    text-align: justify;
+}
+#updates h2 {
+    color: #1C8A43;
+    line-height: 10px;
+    padding-top: 6px;
+}
+#updates h3 {
+    font-weight: normal;
+}
+#updates li {
+    margin-left: 20px;
+    padding-left: 5px;
+}
+#updates p {
+    padding-bottom: 6px;
 }
 
 /* FOOTER */
@@ -52,8 +88,10 @@ body {
 #footer p {
 	color: #8DEEA3;
 }
-
-#prefooter #bottom-bar {
+#footer-wrapper {
+    padding-top: 18px;
+}
+#bottom-bar {
     top: -18px;
     position: relative;
 }
