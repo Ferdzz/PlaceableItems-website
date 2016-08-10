@@ -12,6 +12,11 @@
 	content: " ";
 	clear: both;
 }
+body {
+	background-image: url("../img/background.png");
+	background-repeat: repeat-x;
+	background-position: top left;
+}
 
 body {
     background-image: url(../img/background.png);
@@ -27,6 +32,19 @@ body {
 #main-menu ul li {
 	display: inline-block;
 	text-align: center;
+}
+
+/* BODY */
+#body #clouds {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 400px;
+	background-image: url("../img/clouds.png");
+	background-repeat: repeat-x;
+	background-position: top center;
 }
 
 /* FOOTER */
